@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ujianreact",
+    "slug": "ujianreact",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rumah.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmad_upi.rumah"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rumah.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ahmad_upi.rumah"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
